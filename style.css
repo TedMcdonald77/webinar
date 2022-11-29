@@ -1,0 +1,36 @@
+* {
+margin: 0;
+padding: 0;
+font-family: 'Roboto-Regular';
+}
+
+.main-section {
+padding: 40px 0;
+}
+
+.fixed-container {
+box-sizing: border-box;
+margin: 0 auto;
+padding: 50px 0;
+max-width: 1240px;
+background-color: darkgray;
+display: flex;
+align-items: center;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+
+.block {
+background-color: green;
+height: 100px;
+margin: 10px;
+border-radius: 1rem;
+border: 1 px solid blueviolet;
+}
+
+.text {
+color: white;
+margin: 10px;
+line-height: 100px;
+text-align: center;
+}
